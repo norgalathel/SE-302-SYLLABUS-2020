@@ -1,11 +1,9 @@
 import org.apache.poi.xwpf.usermodel.*;
 import java.io.FileOutputStream;
 import java.math.BigInteger;
-import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTcPr;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTblWidth;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.STTblWidth;
-import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTVMerge;
-import org.openxmlformats.schemas.wordprocessingml.x2006.main.STMerge;
+
 
 
 public class Test {
