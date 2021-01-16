@@ -21,7 +21,7 @@ public class Test {
         width.setType(STTblWidth.DXA);
         width.setW(BigInteger.valueOf(9072));
         //Neden direkt setWidth kullanmadın diye sorarsanız
-        // settWidht'in sanırım bir sınırı var ve o sınırdan sonrasını kabul etmiyor detaylı konuşabiliriz.2172 1150
+        // settWidht'in sanırım bir sınırı var ve o sınırdan sonrasını kabul etmiyor detaylı konuşabiliriz.
         XWPFParagraph space1 = doc.createParagraph();
         space1.isPageBreak();
         XWPFTable dersinAdi = doc.createTable();
