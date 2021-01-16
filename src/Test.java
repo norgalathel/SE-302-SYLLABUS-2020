@@ -3,6 +3,7 @@ import java.io.FileOutputStream;
 import java.math.BigInteger;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTblWidth;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.STTblWidth;
+import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
@@ -74,6 +75,12 @@ public class Test {
         XWPFTableRow rowon1 = onkosullar.createRow();
         XWPFTableRow rowon2 = onkosullar.createRow();
         XWPFTableRow rowon3 = onkosullar.createRow();
+
+        // deneme amaçlı input çalışıyor
+        Scanner languageInput = new Scanner(System.in);
+        System.out.println("enter language");
+        String textLanguage = languageInput.next();
+        rowon1.getCell(1).setText(textLanguage);
 
         rowon1.getCell(0).setText("Dersin Dili");
         rowon2.getCell(0).setText("Dersin Türü");
